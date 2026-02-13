@@ -4,5 +4,8 @@ class Airconditionerexecuter
     {
         boolean ref = Airconditioner.Power();
         System.out.println("AirConditioner: " + ref);
+		
+		Airconditioner.increaseSpeed();
+		Airconditioner.decreaseSpeed();
     }
 }

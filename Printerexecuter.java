@@ -4,5 +4,7 @@ class Printerexecuter
     {
         boolean ref = Printer.onOrOff();
         System.out.println("Printer: " + ref);
+		Printer.ptintingIncrease();
+		Printer.printingDecrease();
     }
 }

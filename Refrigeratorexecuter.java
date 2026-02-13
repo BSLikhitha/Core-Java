@@ -4,5 +4,7 @@ class Refrigeratorexecuter
     {
         boolean ref = Refrigerator.onOrOff();
         System.out.println("Refrigerator: " + ref);
+		Refrigerator.chillingincrease();
+		Refrigerator.chillingdecrease();
     }
 }

@@ -4,5 +4,7 @@ class Heaterexecuter
     {
         boolean ref = Heater.Power();
         System.out.println("Heater: " + ref);
+		Heater.increaseTemperature();
+		Heater.decreaseTemprature();
     }
 }

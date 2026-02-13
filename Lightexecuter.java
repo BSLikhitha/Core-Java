@@ -4,5 +4,7 @@ class Lightexecuter
     {
         boolean ref = Light.onOrOff();
         System.out.println("Light: " + ref);
+		Light.increaseBrightness();
+		Light.decreaseBrightness();
     }
 }

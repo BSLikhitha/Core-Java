@@ -4,5 +4,7 @@ class Microwaveexecuter
     {
         boolean ref = Microwave.onOrOff();
         System.out.println("Microwave: " + ref);
+		Microwave.increasePower();
+		Microwave.decreasePower();
     }
 }

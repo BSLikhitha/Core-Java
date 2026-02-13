@@ -4,5 +4,7 @@ class Tvexecuter
     {
         boolean ref = Tv.Power();
         System.out.println("Television: " + ref);
+		Tv.increaseTvVolume();
+		Tv.decreaseTvVolume();
     }
 }

@@ -4,5 +4,8 @@ class Fanexecuter
     {
         boolean ref = Fan.onOrOff();
         System.out.println("Fan: " + ref);
+		
+		Fan.increaseSpeed();
+		Fan.decreaseSpeed();
     }
 }
